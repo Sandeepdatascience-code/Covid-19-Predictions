@@ -1,0 +1,8 @@
+---
+  applications:
+  - instances: 1
+    name: covid19-main-sandeep
+    random-route: true
+    buildpack: python_buildpack
+    command: python Covid_19_Prediction_Production_Pipeline.py
+    memory: 256M
